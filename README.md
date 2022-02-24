@@ -1,7 +1,13 @@
+---
+label: Welcome
+layout: default
+order: 100
+icon: home
+---
 # Algotap
 
 !!!
-The First and Only Proof-of-Tap Crypto platform.
+**The First and Only Proof-of-Tap Crypto**
 !!!
 
 Both [internal](README.md) and [external](https://example.com) links work.

@@ -5,10 +5,16 @@ branding:
   title: Algotap
   logo: static/logo.png
   logoAlign: left
+  label: ASA
+cache:
+  strategy: 
 links:
 - text: Home
   link: README.md
   icon: home
+- text: Discord
+  link: https://discord.com
+  icon: comment-discussion
 favicon: static/logo.png
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
