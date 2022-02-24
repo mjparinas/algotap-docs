@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.algotap.finance/sitemap.xml.gz
+Sitemap: https://algotap.finance/sitemap.xml.gz
