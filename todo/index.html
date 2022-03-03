@@ -8,25 +8,28 @@
     <!-- Primary Meta Tags -->
     <title>TODO | Algotap.finance - Mine Crypto by Tapping</title>
     <meta name="title" content="TODO | Algotap.finance - Mine Crypto by Tapping">
+    <meta name="description" content="Every time a user hits a milestone of certain amount of TAP then it enables some power ups" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://algotap.finance/todo/">
     <meta property="og:title" content="TODO | Algotap.finance - Mine Crypto by Tapping">
+    <meta property="og:description" content="Every time a user hits a milestone of certain amount of TAP then it enables some power ups">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://algotap.finance/todo/">
     <meta property="twitter:title" content="TODO | Algotap.finance - Mine Crypto by Tapping">
+    <meta property="twitter:description" content="Every time a user hits a milestone of certain amount of TAP then it enables some power ups">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="/static/logo.png" rel="icon" />
-    <link href="/resources/css/retype.css?v=1.11.2.698983317378" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.699655556606" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698983317378" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.699655556606" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698983317378" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.699655556606" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -204,6 +207,51 @@
         <span>TODO</span>
     </h1>
 </doc-anchor-target>
+<ul>
+<li>Every time a user hits a milestone of certain amount of TAP then it enables some power ups</li>
+<li>Users holding TAP earn interest that pays out daily in their pending balance</li>
+<li>Concept of pending versus actual wallet balance</li>
+<li>TAP coin should have 6 decimal places
+<ul>
+<li>Unsure how much the total supply should be</li>
+</ul>
+</li>
+<li>Create a Discord</li>
+<li>Create a Subreddit</li>
+</ul>
+<doc-anchor-target id="deployment">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#deployment">#</doc-anchor-trigger>
+        <span>Deployment</span>
+    </h1>
+</doc-anchor-target>
+<p>configure master db with proper security</p>
+<doc-anchor-target id="random-notes">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#random-notes">#</doc-anchor-trigger>
+        <span>Random Notes</span>
+    </h1>
+</doc-anchor-target>
+<p>PA = num days payout interval / days in year _ interest rate
+= 7 / 365 _ 10%</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">let accountInfo = await indexerClient.searchAccounts()
+        .assetID(assetIndex)
+        .currencyGreaterThan(currencyGreater).do();</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="reference">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reference">#</doc-anchor-trigger>
+        <span>Reference</span>
+    </h1>
+</doc-anchor-target>
+<p><a href="https://developer.algorand.org/docs/get-details/indexer/">https://developer.algorand.org/docs/get-details/indexer/</a>
+<a href="https://developer.algorand.org/docs/get-details/transactions/#setting-first-and-last-valid">https://developer.algorand.org/docs/get-details/transactions/#setting-first-and-last-valid</a>
+<a href="https://github.com/algorand/js-algorand-sdk">https://github.com/algorand/js-algorand-sdk</a>
+<a href="https://developer.purestake.io/">https://developer.purestake.io/</a>
+<a href="https://developer.algorand.org/docs/get-details/indexer/#search-transactions-for-a-specific-account">https://developer.algorand.org/docs/get-details/indexer/#search-transactions-for-a-specific-account</a>
+<a href="https://developer.algorand.org/docs/get-details/asa/">https://developer.algorand.org/docs/get-details/asa/</a>
+<a href="https://dappradar.com/blog/algorand-dapp-development-2-standard-asset-management/#ASA">https://dappradar.com/blog/algorand-dapp-development-2-standard-asset-management/#ASA</a></p>
 
 
 
